@@ -1,0 +1,55 @@
+# Python virtual environment
+myenv/
+venv/
+ENV/
+
+# Python compiled files
+*.py[cod]
+__pycache__/
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment files
+.env
+.venv
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
+# Model files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.pth
+*.onnx
+*.mlmodel
+*.safetensors
+*.bin
+data/
+datasets/
+models/
+weights/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+
